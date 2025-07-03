@@ -48,7 +48,7 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="dark"
                 icon="weekend"
-                title="Bookings"
+                title="Projects"
                 count={281}
                 percentage={{
                   color: "success",
@@ -62,8 +62,8 @@ function Dashboard() {
             <MDBox mb={1.5}>
               <ComplexStatisticsCard
                 icon="leaderboard"
-                title="Today's Users"
-                count="2,300"
+                title="Today Payments"
+                count="23,000,000"
                 percentage={{
                   color: "success",
                   amount: "+3%",
@@ -78,7 +78,7 @@ function Dashboard() {
                 color="success"
                 icon="store"
                 title="Revenue"
-                count="34k"
+                count="340,000"
                 percentage={{
                   color: "success",
                   amount: "+1%",
@@ -92,8 +92,8 @@ function Dashboard() {
               <ComplexStatisticsCard
                 color="primary"
                 icon="person_add"
-                title="Followers"
-                count="+91"
+                title="Customers"
+                count="+191"
                 percentage={{
                   color: "success",
                   amount: "",
@@ -109,9 +109,9 @@ function Dashboard() {
               <MDBox mb={3}>
                 <ReportsBarChart
                   color="info"
-                  title="website views"
-                  description="Last Campaign Performance"
-                  date="campaign sent 2 days ago"
+                  title="Team Performance"
+                  description="Sales Team Performance"
+                  date="July"
                   chart={reportsBarChartData}
                 />
               </MDBox>
@@ -136,7 +136,7 @@ function Dashboard() {
                 <ReportsLineChart
                   color="dark"
                   title="completed tasks"
-                  description="Last Campaign Performance"
+                  description="Overall Performance"
                   date="just updated"
                   chart={tasks}
                 />
