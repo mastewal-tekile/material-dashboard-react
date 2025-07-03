@@ -75,7 +75,7 @@ function MasterCard({ color, number, holder, expires }) {
           <MDBox display="flex" alignItems="center">
             <MDBox mr={3} lineHeight={1}>
               <MDTypography variant="button" color="white" fontWeight="regular" opacity={0.8}>
-                Card Holder
+                Card Holder Name
               </MDTypography>
               <MDTypography
                 variant="h6"
