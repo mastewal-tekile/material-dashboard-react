@@ -59,7 +59,7 @@ export default function data() {
 
     rows: [
       {
-        author: <Author image={team2} name="John Michael" email="john@creative-tim.com" />,
+        author: <Author image={team2} name="mastewal teklie" email="john@creative-tim.com" />,
         function: <Job title="Manager" description="Organization" />,
         status: (
           <MDBox ml={-1}>
@@ -78,7 +78,7 @@ export default function data() {
         ),
       },
       {
-        author: <Author image={team3} name="Alexa Liras" email="alexa@creative-tim.com" />,
+        author: <Author image={team3} name="kebede zeleke" email="alexa@creative-tim.com" />,
         function: <Job title="Programator" description="Developer" />,
         status: (
           <MDBox ml={-1}>
@@ -97,7 +97,7 @@ export default function data() {
         ),
       },
       {
-        author: <Author image={team4} name="Laurent Perrier" email="laurent@creative-tim.com" />,
+        author: <Author image={team4} name="fikir menesha" email="laurent@creative-tim.com" />,
         function: <Job title="Executive" description="Projects" />,
         status: (
           <MDBox ml={-1}>
@@ -135,7 +135,7 @@ export default function data() {
         ),
       },
       {
-        author: <Author image={team3} name="Richard Gran" email="richard@creative-tim.com" />,
+        author: <Author image={team3} name="Rediet gezahegn " email="richard@creative-tim.com" />,
         function: <Job title="Manager" description="Executive" />,
         status: (
           <MDBox ml={-1}>
